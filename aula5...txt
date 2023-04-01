@@ -1,0 +1,13 @@
+#include <iostream>
+//namespace
+
+//programaçao para aparecer uma mensagem sem interaçao
+void Mensagem()
+{
+    //mensagem que ira aparecer
+    std::cout << "Olá mundo!" << std::endl;
+}
+int main(){
+    
+    Mensagem();
+}
